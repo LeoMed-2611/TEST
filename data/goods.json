@@ -1,0 +1,80 @@
+[
+{"id":0 ,
+    "img":"../images/goods/ia_100000017.png",
+    "name":"68山巅",
+    "version":"Miya68MAC/MIYA68-D",
+    "style":"热升华",
+    "imgD":"../images/goods/20200612095532.png",
+    "price":"868",
+    "notes":""
+
+                                            },
+{"id":1 ,
+    "img":"../images/goods/ia_100000018.png",
+    "name":"68花旦娘",
+    "version":"MIYA PRO68 花旦娘",
+    "style":"热升华正刻",
+    "imgD":"../images/goods/20191121110300.png",
+    "price":"897",
+    "notes":""
+
+                                            },
+{"id":2 ,
+    "img":"../images/goods/ia_100000019.png",
+    "name":"68锦鲤娘",
+    "version":"MIYA PRO68 锦鲤娘",
+    "style":"热升华",
+    "imgD":"../images/goods/20191125032857.png",
+    "price":"789",
+    "notes":""
+
+                                            },
+{"id":3 ,
+    "img":"../images/goods/ia_100000020.png",
+    "name":"108夜色",
+    "version":"MIYA PRO68 108夜色",
+    "style":"热升华正刻",
+    "imgD":"../images/goods/20190916040155.png",
+    "price":"789",
+    "notes":""
+
+                                            },
+{"id":4 ,
+    "img":"../images/goods/ia_100000021.png",
+    "name":"68海韵",
+    "version":"MIYA PRO 68海韵",
+    "style":"热升华正刻",
+    "imgD":"../images/goods/20200312022435.png",
+    "price":"988",
+    "notes":""
+
+                                            },
+{"id":5 ,
+    "img":"../images/goods/ia_100000022.png",
+    "name":"68森灵",
+    "version":"MIYA PRO 68森灵",
+    "style":"热升华",
+    "imgD":"../images/goods/20180828011554.png",
+    "price":"878",
+    "notes":""
+
+                                            },
+{"id":6 ,
+    "img":"../images/goods/ia_100000023.png",
+    "name":"Sword68CMYK",
+    "version":"Sword68",
+    "style":"热升华正刻",
+    "imgD":"../images/goods/20200622095045.png",
+    "price":"988",
+    "notes":""
+
+                                            },
+{"id":7 ,
+    "img":"../images/goods/ia_100000024.png",
+    "name":"68Mac",
+    "version":"MIYA PRO Mac",
+    "style":"热升华正刻",
+    "imgD":"../images/goods/0724101241.png",
+    "price":"656",
+    "notes":""
+}]   

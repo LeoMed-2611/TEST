@@ -1,0 +1,48 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Document</title><link rel="stylesheet" href="../css/iconfont.css"><link rel="stylesheet" href="../css/goods.min.css"><script type="text/javascript" src="../js/jquery-1.11.3.js"></script><script type="text/javascript" src="../js/jquery.cookie.js"></script><script src="../js/require.js" async="true" deter data-main="../js/main-goods"></script><script>$(function(){
+                   $.ajax({
+                url:'../data/goods.json',
+                success:function(arr){
+                    console.log("ajax引入成功")
+                    var str = ``;
+                    for(var i = 0 ; i < arr.length ; i++){
+                        str +=`
+             <div class="keyboard">
+                        <li>    
+                            <img src="${arr[i].img}" alt="">
+                        </li>
+                        <li>${arr[i].name}</li>
+                        <li>
+                            <p>型号</p>
+                            <p>${arr[i].version}</p>
+                        </li>
+                        <li>
+                            <p>印字方式</p>
+                            <p>${arr[i].style}</p>
+                        </li>
+                        <li>
+                            <a  target='_blank' href="details.html?goodsId=${arr[i].id}">了解</a><a  target='_blank' href="details.html?goodsId=${arr[i].id}">购买</a>
+                        </li>
+             </div>`
+             console.log(arr[i].id)
+                    }
+                    $(".right-box").html(str);
+                },
+                error :function (msg){
+                    console.log(msg);
+                }   
+            })
+        })</script></head><body style="overflow-y:scroll;"><header><img id="img-logo" src="../images/ia_100000000.png" alt="logo"><ul class="header-ul"><li><a href=""><span class="iconfont icon-diqiu"></span></a></li><li><a href="">首页</a></li><li><a href="">主题键盘</a></li><li><a href="">私人订制</a></li><li><a href="">技术支持</a></li><li><a href="">商务合作</a></li><li><a href="">常见问题FAQ</a></li><input type="text" placeholder="搜索" id="oinput"><li><a href="login.html">登录</a></li><li><a href="register.html">注册</a></li></ul><div class="earth-list"><ul><li><a href="">中文</a></li><li><a href="">English</a></li></ul></div><div class="theme-list"><ul><li><img src="../images/ia_100000001.png" alt="主题产品"></li><li><a href="">20%主题产品</a></li><li><a href="">40%主题产品</a></li><li><a href="">60%主题产品</a></li><li><a href="">80%主题产品</a></li><li><a href="">100%主题产品</a></li></ul></div><div class="customization"><ul><li><img src="../images/ia_100000002.jpg" alt="私人订制"></li><li><a href="">65%私人.订制</a></li><li><a href="">80%私人订制</a></li><li><a href="">110%私人订制</a></li></ul></div></header><div class="tie">65%产品</div><nav><p>主题键盘</p><p>桌垫鼠标垫</p><p>个性键帽</p><p>鼠标垫</p></nav><div id="null0"></div><main><div class="main"><div class="left-box"><div class="slide-box"><li class="li-head">布局类型<img src="../images/goods/ia_100000006.png" alt=""></li><li><p><input type="checkbox"> <label for="cbox1">八七健美式布局</label></p></li><li class="li-head">外壳材质<img src="../images/goods/ia_100000006.png" alt=""></li><li><p><input type="checkbox"> <label for="cbox1">塑料</label></p><p><input type="checkbox"> <label for="cbox1">金属</label></p></li><li class="li-head">功能<img src="../images/goods/ia_100000006.png" alt=""></li><li><p><input type="checkbox"> <label for="cbox1">VA-有线</label></p><p><input type="checkbox"> <label for="cbox1">VD-双模</label></p></li><li class="li-head">灯<img src="../images/goods/ia_100000006.png" alt=""></li><li><p><input type="checkbox"> <label for="cbox1">无灯</label></p><p><input type="checkbox"> <label for="cbox1">单色LED下位</label></p><p><input type="checkbox"> <label for="cbox1">RGB灯</label></p></li><li class="reset">重置选项</li></div></div><div class="right-box"><!-- <div class="keyboard"> --><!-- <li>
+                            <img src="../images/goods/ia_100000017.png" alt="">
+                        </li>
+                        <li>68山巅</li>
+                        <li>
+                            <p>型号</p>
+                            <p>Miya68MAC/MIYA68-D</p>
+                        </li>
+                        <li>
+                            <p>印字方式</p>
+                            <p>热升华</p>
+                        </li>
+                        <li>
+                            <a>了解</a><a>购买</a>
+                        </li> --><!-- </div> --></div></div></main></body></html>
